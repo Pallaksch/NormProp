@@ -4,7 +4,9 @@ PyTorch Code for the following paper at AAAI-2025:
 
 Title: Normalize Then Propagate: Efficient Homophilous Regularization for Few-shot Semi-Supervised Node Classification
 
-Paper: https://arxiv.org/abs/2501.08581
+AAAI-25:    https://ojs.aaai.org/index.php/AAAI/article/view/33437
+
+ArXiv:    https://arxiv.org/abs/2501.08581
 
 Keywords: graph neural networks, semi-supervised node classification
 
@@ -46,10 +48,14 @@ python main.py  --dataset pubmed --weight-decay 0.01 --nhid 8 --lr 0.01 --dropou
 ### Cite NormProp
 Please cite the paper accordingly:
 ```
-@article{zhang2025normprop,
-  title={Normalize Then Propagate: Efficient Homophilous Regularization for Few-shot Semi-Supervised Node Classification},
-  author={Zhang, Baoming and Chen, MingCai and Song, Jianqing and Li, Shuangjie and Zhang, Jie and Wang, Chongjun},
-  journal={arXiv preprint arXiv:2501.08581},
-  year={2025}
+@article{zhang2025normprop, 
+	title={Normalize Then Propagate: Efficient Homophilous Regularization for Few-Shot Semi-Supervised Node Classification},
+	author={Zhang, Baoming and Chen, MingCai and Song, Jianqing and Li, Shuangjie and Zhang, Jie and Wang, Chongjun},
+	volume={39}, url={https://ojs.aaai.org/index.php/AAAI/article/view/33437},
+	DOI={10.1609/aaai.v39i12.33437},
+	number={12},
+	journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+	year={2025},
+	pages={13170-13178}
 }
 ```
