@@ -20,7 +20,7 @@ The key idea is to efficiently capture both the class information and the consis
 Moreover, we conduct a theoretical analysis to determine the upper bound of Euclidean norm, and then propose homophilous regularization to constraint the consistency of unlabeled nodes.
 Extensive experiments demonstrate that NormProp achieve state-of-the-art performance under low-label rate scenarios with low computational complexity.
 
-![](./images/framework.jpg)
+![](./images/framework.png)
 
 
 ### Requirements
